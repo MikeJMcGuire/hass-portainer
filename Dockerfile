@@ -1,0 +1,1 @@
+FROM ${BUILD_FROM}
