@@ -1,1 +1,28 @@
-{"HttpHeaders":{"X-PortainerAgent-ManagerOperation":"1","X-PortainerAgent-PublicKey":"3059301306072a8648ce3d020106082a8648ce3d03010703420004fc2903fdc92449b33991a3ceb0f62506418b728d8bf94b4fd32d1f389750e26b7351fdc1791cb3af605e8832b7b167e3a8da9908739790b2d8703d9fae5987f5","X-PortainerAgent-Signature":"DQ/9NyOczwoctG/UzVv1ekAKnGb8fmDHeWP2lxHrnwS3xTFDpZ6P6la2sJtke99Y83i+RoRqzMPI6JMnuIbUnA"},"advanced":true,"arch":["aarch64","amd64","armhf","armv7"],"description":"Container management made easy","docker_api":true,"hassio_api":true,"ingress":true,"ingress_port":9000,"init":false,"map":["ssl"],"name":"Portainer","panel_icon":"mdi:docker","slug":"portainer","startup":"services","url":"https://github.com/MikeJMcGuire/hass-portainer","version":"2.1.1"}
+{
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7"
+  ],
+  "description": "Container management made easy",
+  "docker_api": true,
+  "ingress": true,
+  "ingress_port": 9000,
+  "init": false,
+  "map": [
+    "ssl"
+  ],
+  "name": "Portainer",
+  "panel_icon": "mdi:docker",
+  "slug": "portainer",
+  "startup": "services",
+  "url": "https://github.com/MikeJMcGuire/hass-portainer",
+  "version": "2.1.1",
+  "options": {
+    "AdminPassword": "portainer!"
+  },
+  "schema": {
+    "AdminPassword": "str"
+  }
+}
