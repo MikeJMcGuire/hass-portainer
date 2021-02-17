@@ -1,4 +1,3 @@
-#/bin/sh
 
 ADMIN_PW=$(jq -r .adminpassword /data/options.json | htpasswd -nb -B admin -i | cut -d ":" -f 2)
 
