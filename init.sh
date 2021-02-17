@@ -1,5 +1,5 @@
 #/bin/sh
 
-echo portainer > /tmp/initial
+echo portainer > /tmp/initialpassword
 
-/opt/portainer/portainer --admin-password-file=/tmp/initial --host=unix:///run/docker.sock
+/opt/portainer/portainer --admin-password-file=/tmp/initialpassword --host=unix:///run/docker.sock
