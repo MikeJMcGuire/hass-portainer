@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [v2022.9.0] - 2022-09-06
+## [v2022.9.0] - 2022-09-21
 
 ### Changed
 
